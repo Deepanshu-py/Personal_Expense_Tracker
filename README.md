@@ -44,9 +44,57 @@ This app allows users to **record daily expenses**, view them in a **scrollable 
 
 ---
 
-## How to Run
+# How to Run
 
-### 1 Clone this repository:
-```bash
-git clone https://github.com/your-username/expense-tracker.git
-cd expense-tracker
+##  Install required library:
+
+pip install matplotlib
+
+tkinter and sqlite3 are pre-installed with Python, no need to install them separately.
+
+## Run the application:
+
+python app.py
+
+The GUI window will open. You can start adding and viewing your expenses.
+
+## Project Structure
+
+expense-tracker/
+│
+├── app.py             # Main application file
+├── expenses.db        # Auto-created SQLite database
+├── requirements.txt   # Required Python packages
+└── README.md          # This documentation
+
+## Learnings
+This project teaches you:
+
+GUI programming using Tkinter
+
+Working with local databases (SQLite)
+
+Displaying data in tables (ttk.Treeview)
+
+Using Matplotlib for charts
+
+Building multi-tabbed desktop apps
+
+## Future Scope
+ Add Edit/Delete functionality
+
+ Export data to CSV or Excel
+
+ Add pie chart and date filters
+
+ Add login system for multi-user usage
+
+## Author
+Deepanshu 
+📧 deepkrajput87611@gmail.com
+📍 Baghpat, Uttar Pradesh, India
+🔗 LinkedIn Profile
+
+## Usage
+This project is free to use for learning, educational, and personal purposes.
+No license restrictions — just give credit if you share or modify it.
